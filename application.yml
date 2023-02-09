@@ -1,1 +1,6 @@
-Random test
+spring.application.name=USER-SERVICE
+
+eureka.instance.prefer-ip-address=true
+eureka.client.fetch-registry=true
+eureka.client.register-with-eureka=true
+eureka.client.server-url.defaultZone=http://localhost:8761/eureka
